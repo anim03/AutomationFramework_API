@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-01T18:29:31 IST" name="Default suite" finished-at="2025-03-01T18:29:33 IST" duration-ms="1981">
+    <groups>
+    </groups>
+    <test started-at="2025-03-01T18:29:31 IST" name="Default test" finished-at="2025-03-01T18:29:33 IST" duration-ms="1981">
+      <class name="com.api.test.UpdateProfileTest">
+        <test-method signature="UpdateProfileTest()[pri:0, instance:com.api.test.UpdateProfileTest@5824a83d]" started-at="2025-03-01T18:29:31 IST" name="UpdateProfileTest" description="Verify if Update Profile API is working" finished-at="2025-03-01T18:29:33 IST" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProfileTest -->
+      </class> <!-- com.api.test.UpdateProfileTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
