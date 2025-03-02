@@ -1,5 +1,6 @@
 package com.api.base;
 
+import com.api.filters.LoggingFilter;
 import com.api.models.request.LoginRequest;
 
 import io.restassured.RestAssured;
@@ -15,7 +16,10 @@ public class BaseService {// wrapper for rest assured--> Abstraction
 	private static final String BASE_URL = "http://64.227.160.186:8080";
 	private RequestSpecification requestSpecification;
 	// Service Object Model-->Design Pattern
-
+	
+	static{
+		RestAssured.filters(new LoggingFilter());
+	}
 	public BaseService() {
 		requestSpecification = RestAssured.given().baseUri(BASE_URL);
 	}

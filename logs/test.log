@@ -1,0 +1,80 @@
+23:36:09.146 [main] INFO  com.api.listners.TestListener - StartedloginTest
+23:36:09.148 [main] INFO  com.api.listners.TestListener - DescriptionloginTest
+23:36:10.919 [main] INFO  com.api.listners.TestListener - PassedloginTest
+23:42:29.872 [main] INFO  com.api.listeners.TestListener - StartedloginTest
+23:42:29.875 [main] INFO  com.api.listeners.TestListener - DescriptionloginTest
+23:42:31.526 [main] INFO  com.api.listeners.TestListener - PassedloginTest
+00:16:42.324 [main] INFO  com.api.listeners.TestListener - Started loginTest
+00:16:42.328 [main] INFO  com.api.listeners.TestListener - Description loginTest
+00:16:43.270 [main] INFO  com.api.filters.LoggingFilter - BASE_URI http://64.227.160.186:8080
+00:16:43.270 [main] INFO  com.api.filters.LoggingFilter - Request Header Accept=*/*
+Content-Type=application/json
+00:16:43.276 [main] INFO  com.api.filters.LoggingFilter - Request Body {"username":"uday1234","password":"uday12345"}
+00:16:43.822 [main] INFO  com.api.filters.LoggingFilter - STATUS_CODE 200
+00:16:43.872 [main] INFO  com.api.filters.LoggingFilter - Response Body {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc0MDg1NDgwNCwiZXhwIjoxNzQwODU4NDA0fQ.SQK-vy_Vzxhp5xrgUN2qghxFhnGvvD6PqNxNZKQu8F0",
+    "type": "Bearer",
+    "id": 1,
+    "username": "uday1234",
+    "email": "disha1234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:16:43.872 [main] INFO  com.api.filters.LoggingFilter - Response Header Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 01 Mar 2025 18:46:44 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:16:43.946 [main] INFO  com.api.listeners.TestListener - PassedloginTest
+09:25:14.388 [main] INFO  com.api.listeners.TestListener - Started loginTest
+09:25:14.394 [main] INFO  com.api.listeners.TestListener - Description loginTest
+09:25:15.733 [main] INFO  com.api.filters.LoggingFilter - BASE_URI http://64.227.160.186:8080
+09:25:15.733 [main] INFO  com.api.filters.LoggingFilter - Request Header Accept=*/*
+Content-Type=application/json
+09:25:15.733 [main] INFO  com.api.filters.LoggingFilter - Request Body {"username":"uday1234","password":"uday12345"}
+09:25:16.274 [main] INFO  com.api.filters.LoggingFilter - STATUS_CODE 200
+09:25:16.303 [main] INFO  com.api.filters.LoggingFilter - Response Body {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc0MDg4NzcxNywiZXhwIjoxNzQwODkxMzE3fQ.5qIBqvz11xs9KLpYcNtsr5LAlmeC9LfhOOhGiaLMXe8",
+    "type": "Bearer",
+    "id": 1,
+    "username": "uday1234",
+    "email": "disha1234@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+09:25:16.303 [main] INFO  com.api.filters.LoggingFilter - Response Header Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 02 Mar 2025 03:55:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+09:25:16.358 [main] INFO  com.api.listeners.TestListener - PassedloginTest
